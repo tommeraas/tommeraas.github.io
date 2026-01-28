@@ -45,7 +45,7 @@ const footerSchema = z.object({
     github: z.object({ link: z.string() }).optional(),
     facebook: z.object({ link: z.string() }).optional(),
     instagram: z.object({ link: z.string() }).optional(),
-    x: z.object({ link: z.string() }).optional(),
+    twitter: z.object({ link: z.string() }).optional(),
     youtube: z.object({ link: z.string() }).optional(),
   }),
 });
@@ -57,7 +57,7 @@ const uiSchema = z.object({
     instagram: z.string(),
     youtube: z.string(),
     facebook: z.string(),
-    x: z.string(),
+    twitter: z.string(),
   }),
 });
 

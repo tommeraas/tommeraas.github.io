@@ -86,11 +86,19 @@ export interface ThemeConfig {
         link: string;
         icon: string;
       };
-      x: {
+      twitter: {
         link: string;
         icon: string;
       };
       youtube: {
+        link: string;
+        icon: string;
+      };
+      tiktok: {
+        link: string;
+        icon: string;
+      };
+      patreon: {
         link: string;
         icon: string;
       };

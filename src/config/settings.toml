@@ -3,9 +3,11 @@
 theme = 'brookmint'
 
 [general]
-title = "Meditation Apps"
+title = "TØMMERAAS CC"
 logo = ""
-iconLogo = "tabler:coffee"
+iconLogo = ""
+#tabler:carambola
+
 
 [general.seo]
 name = "Cafe Directory"
@@ -58,7 +60,7 @@ emoji = "⏰"
 description = "Timers can be used to track how much you meditate."
 
 [header.banner]
-show = true
+show = false
 text = "Follow mark_bruderer on twitter."
 link = "https://x.com/intent/follow?screen_name=mark_bruderer"
 brandText = "AI Agent Libraries"
@@ -82,8 +84,7 @@ href = "https://tally.so"
 [footer]
 description = "Best directory for my niche."
 
-[footer.socials.x]
-link = "https://x.com/mark_bruderer"
+[footer.socials.twitter]
+link = "https://x.com/tommeraascc"
 
-[footer.socials.youtube]
-link = "https://www.youtube.com/@mark_hacks"
+
